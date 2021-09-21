@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1025px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.headerdiv {
+    background: #141719;
+    padding: 17px 0;
+}
+ 
+.logo img {
+    width: 90px;
+    height: auto;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    color: #fff;
+    padding: 6px;
+    line-height: 51px;
+    text-decoration: none;
+    border-bottom: 2px solid #ddd;
+}
+
+.section1 {
+    display: flex;
+    margin: 60px 0;
+}
+
+.layout-sec {
+    width: 70%;
+    display: flex;
+}
+
+.section1 .left {
+    width: 70%;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+
+
+.section1 .left .box .red {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section1 .left .box .red .red1 {
+    border: 2px solid green;
+    flex-basis: 29%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    height: 200px;
+}
+
+.section1 .left .box .red .red1 span {
+    background: #ff0000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.section1 .left .box .red .red2 {
+    border: 2px solid green;
+    flex-basis: 29%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.section1 .left .box .red .red2 span {
+    background: #ff0000;
+    color: #fff;
+    padding: 20px 10px;
+}
+
+.section1 .left .box .red .red3 {
+    border: 2px solid green;
+    flex-basis: 29%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+}
+
+.section1 .left .box .red .red3 span {
+    background: #ff0000;
+    color: #fff;
+    padding: 20px 10px;
+}
+
+.right {
+    background: #ddd;
+    width: 28%;
+    border-left: 4px solid red;
+    padding: 20px;
+ } 
+
+.right h1 {
+    padding: 15px 0px;
+} 
+
+.right p {
+    line-height: 26px;
+}
+ 
+.img-sc {
+    height: 200px;
+    margin-top: 19px;
+    margin-left: 18px;
+} 
+
+
+.gr {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+
+.green1 {
+    border: 2px solid green;
+    flex-basis: 24%;
+    padding: 21px;
+    box-sizing: border-box;
+}
+
+.green2 {
+    border: 2px solid green;
+    flex-basis: 39%;
+    padding: 21px;
+    box-sizing: border-box;
+}
+
+.green3 {
+    border: 2px solid green;
+    flex-basis: 24%;
+    padding: 33px;
+    box-sizing: border-box;
+}
+
+
+.ye {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.yellow1 {
+    border: 2px solid green;
+    flex-basis: 27%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 26px 0;
+} 
+
+.yellow2 {
+    border: 2px solid green;
+    flex-basis: 27%;
+    display: flex;
+    padding: 49px 25px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.yellow3 {
+    border: 2px solid green;
+    flex-basis: 27%;
+}
+ 
+.ye .yellow1 .span-tag span {
+    background: red;
+    color: #fff;
+    padding: 13px;
+    border: 1px solid green;
+}
+
+.ye .yellow2 .span-tag span {
+    background: red;
+    color: #fff;
+    padding: 8px;
+    border: 1px solid green;
+    display: inline-block;
+} 
+
+
+
+.yellow3 {
+    padding: 37px 11px;
+    height: 204px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.flex-button {
+    background: red;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+}
+
+.flex_btn {}
+
+.flex_btn2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.flex-btn3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu1 {
+    background: #141719;
+    padding: 10px;
+}
+
+.menu1 ul {
+    display: flex;
+    justify-content: center;
+}
+ 
+.menu1 ul li {
+    list-style: none;
+    margin-left: 72px;
+}
+
+.menu1 ul li a {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    line-height: 51px;
+    text-decoration: none;
+    border-bottom: 2px solid #ddd;
+}
